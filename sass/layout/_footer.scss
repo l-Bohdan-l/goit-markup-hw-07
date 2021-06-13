@@ -13,7 +13,13 @@
   color: var(--fourth-accent-color);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
+
 .addres-list-contacts {
   font-style: normal;
   font-weight: 400;
@@ -23,13 +29,11 @@
   color: #ffffff99;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.addres-list-link:hover,
-.addres-list-link:focus,
-.addres-list-contacts:hover,
-.addres-list-contacts:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-second-logo {
@@ -114,11 +118,11 @@
   /* display: inline-block; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
-}
 
-.footer-sbscr-btn:hover,
-.footer-sbscr-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .footer-sbscr-form-input {
@@ -133,9 +137,9 @@
   margin-right: 12px;
   color: #ffffff;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-sbscr-form-input:focus {
-  border-color: var(--accent-color);
-  outline: none;
+  &:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
 }
