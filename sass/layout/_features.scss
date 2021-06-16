@@ -1,4 +1,4 @@
-.features-suptitle {
+.features-list__suptitle {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -7,7 +7,7 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.features-suptitle-descritpion {
+.features-list__suptitle-descritpion {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -19,11 +19,11 @@
   display: flex;
 }
 
-.features-list-item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-bg {
+.features-list__bg {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -9,18 +9,18 @@
   margin-right: -30px;
 }
 
-.what-we-do-title {
+.what-we-do__title {
   margin-bottom: 50px;
 }
 
-.what-we-do-list-item {
+.what-we-do-list__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 50px;
   margin-right: 30px;
   position: relative;
 }
 
-.what-we-do-list-description {
+.what-we-do-list__description {
   position: absolute;
   font-family: var(--main-font);
   font-weight: 700;

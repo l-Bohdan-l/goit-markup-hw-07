@@ -23,23 +23,6 @@
   display: flex;
 }
 
-.logo-link {
-  font-family: var(--secondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
-.header__logo {
-  margin-right: 93px;
-}
-
-.logo-link__second-logo {
-  color: var(--third-accent-color);
-}
-
 .navigation-list__item:not(:last-child) {
   margin-right: 50px;
 }

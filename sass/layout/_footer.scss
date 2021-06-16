@@ -4,7 +4,7 @@
   padding-bottom: 60px;
 }
 
-.addres-list-link {
+.addres-list__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -20,7 +20,7 @@
   }
 }
 
-.addres-list-contacts {
+.addres-list__contacts {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -36,15 +36,11 @@
   }
 }
 
-.footer-second-logo {
-  color: var(--fourth-accent-color);
-}
-
 .addres-list {
   margin-top: 20px;
 }
 
-.addres-list-item:not(:last-child) {
+.addres-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -54,15 +50,7 @@
   justify-content: space-between;
 }
 
-.footer-social-list-link {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social-list-icon {
-  fill: var(--fourth-accent-color);
-}
-
-.footer-social-list-heading {
+.footer-social__list-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -79,7 +67,7 @@
   /* margin-right: 93px; */
 }
 
-.footer-form-head {
+.footer-sbscr-form__head {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -90,17 +78,17 @@
   margin-bottom: 20px;
 }
 
-.footer-sbscr-form-icon {
+.footer-sbscr-form__icon {
   margin-left: 10px;
 }
 
-.footer-form-wrapper {
+.footer-sbscr-form__wrapper {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
 }
 
-.footer-sbscr-btn {
+.footer-sbscr-form__btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,7 +113,7 @@
   }
 }
 
-.footer-sbscr-form-input {
+.footer-sbscr-form__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
