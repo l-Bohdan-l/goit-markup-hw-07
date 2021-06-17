@@ -1,4 +1,4 @@
-.portfolio-menu-list-header {
+.portfolio-product-wrapper__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -7,7 +7,7 @@
   color: var(--third-accent-color);
 }
 
-.portfolio-menu-list-description {
+.portfolio-product-wrapper__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -15,14 +15,14 @@
   color: var(--fifth-accent-color);
 }
 
-.portfolio-menu-list {
+.portfolio-сatalog {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.portfolio-menu-list-item {
+.portfolio-сatalog__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
@@ -35,7 +35,7 @@
   }
 }
 
-.portfolio-menu-list-content {
+.portfolio-product-wrapper__content {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -44,7 +44,7 @@
   border-top: none;
 }
 
-.portfolio-overlay {
+.portfolio-product-wrapper__overlay {
   position: absolute;
   font-family: var(--main-font);
   font-weight: 400;
@@ -69,13 +69,13 @@
   padding-bottom: 63px;
   padding-right: 24px;
 
-  .portfolio-menu-list-wrapper:hover &,
-  .portfolio-menu-list-wrapper:focus & {
+  .portfolio-product-wrapper:hover &,
+  .portfolio-product-wrapper:focus & {
     transform: translateY(0%);
   }
 }
 
-.portfolio-img-wrapper {
+.portfolio-product-wrapper__img {
   position: relative;
   overflow: hidden;
 }

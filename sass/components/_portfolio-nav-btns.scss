@@ -1,4 +1,4 @@
-.portfolio-nav-btn {
+.portfolio-nav-list__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -26,12 +26,12 @@
   }
 }
 
-.portfolio-nav-btn-list {
+.portfolio-nav-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-nav-btn-list-item:not(:last-child) {
+.portfolio-nav-list__item:not(:last-child) {
   margin-right: 8px;
 }
